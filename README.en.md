@@ -23,10 +23,9 @@ npx skills add Sac-Y/match-cut
 ### iPhone Duo · Open Up (20 s)
 
 A book-style foldable phone, on one idea: "folds small, opens big". Things that fold and open in many worlds hand
-their motion on to the Duo. At the end, eight worlds change around the phone in one fixed spot, and it comes to
-rest open flat on a terrace.
+their motion on to the Duo.
 
-<img src="assets/iphone-duo-lineup.gif" width="100%" alt="iPhone Duo ending: eight worlds, a fingertip touches the screen on each beat, a whip to the terrace, the Duo lies flat, OPEN UP.">
+<img src="assets/iphone-duo-relays.gif" width="100%" alt="iPhone Duo relays: a map into a coat pocket, then the Duo into a jacket pocket; a topo map stands up, then the Duo opens in two hands; a paint-box lid lifted, then the Duo lifted by the same grip">
 
 <img src="assets/iphone-duo-cuts.en.jpg" width="100%" alt="Two iPhone Duo relays: before the cut on top, after it below">
 

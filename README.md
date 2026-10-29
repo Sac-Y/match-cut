@@ -21,9 +21,9 @@ npx skills add Sac-Y/match-cut
 
 ### iPhone Duo · Open Up（20 秒）
 
-一支书本式折叠屏手机的片子，主题是"折起来很小，打开很大"：不同世界里被折起、打开的东西，把动作一路交给 Duo。结尾八个世界轮换，手机始终在同一个位置，最后平放在露台上。
+一支书本式折叠屏手机的片子，主题是"折起来很小，打开很大"：不同世界里被折起、打开的东西，把动作一路交给 Duo。
 
-<img src="assets/iphone-duo-lineup.gif" width="100%" alt="iPhone Duo 结尾：八个世界轮换，手指每拍点一下屏幕，镜头甩到露台，Duo 平放，OPEN UP.">
+<img src="assets/iphone-duo-relays.gif" width="100%" alt="iPhone Duo 接力：地图塞进大衣口袋接 Duo 放进外套口袋，地形图立起接双手打开 Duo，掀起颜料盒盖接同一手势掀起 Duo">
 
 <img src="assets/iphone-duo-cuts.jpg" width="100%" alt="iPhone Duo 的两组接力：每组上面是切之前，下面是切之后">
 
