@@ -1,0 +1,7 @@
+numpy>=1.26
+scipy>=1.11
+opencv-python-headless>=4.9
+soundfile>=0.12
+librosa>=0.10.2
+pyloudnorm>=0.1.1
+pillow>=10

@@ -1,0 +1,906 @@
+{
+ "name": "iphone-duo-v3",
+ "timeline": {
+  "fps": 25,
+  "bpm": 150,
+  "frames": 500,
+  "size": [
+   1920,
+   1080
+  ]
+ },
+ "sources": {
+  "v01": "dl/v2/renoise-382901.mp4",
+  "v02": "dl/v2/renoise-382930.mp4",
+  "v03": "dl/v3/renoise-383068-clean.mp4",
+  "v05": "dl/v2/renoise-382906.mp4",
+  "v06": "dl/renoise-382426.mp4",
+  "v07": "dl/v2/renoise-382907.mp4",
+  "v08": "dl/renoise-382428.mp4",
+  "v09": "dl/renoise-382429.mp4",
+  "v10": "dl/renoise-382454.mp4",
+  "v13": "dl/v3/renoise-383069.mp4",
+  "v14": "dl/v3/renoise-383070.mp4",
+  "v17": "dl/renoise-382440.mp4",
+  "v18": "dl/renoise-382441.mp4",
+  "v19": "dl/renoise-382442-clean.mp4",
+  "v20": "dl/renoise-382443.mp4",
+  "v21": "dl/renoise-382444.mp4",
+  "v22": "dl/renoise-382445.mp4",
+  "v23": "dl/renoise-382449.mp4",
+  "v24": "dl/renoise-382450.mp4",
+  "v25": "dl/renoise-382451.mp4",
+  "v26": "dl/renoise-382458.mp4"
+ },
+ "look": {
+  "roll": {
+   "dps": 20,
+   "max_frames": 20
+  },
+  "grades": {
+   "product": {
+    "shadow": [
+     0.0,
+     0.0,
+     0.004
+    ],
+    "highlight": [
+     0.004,
+     0.002,
+     -0.004
+    ],
+    "sat": 1.0
+   },
+   "world": {
+    "shadow": [
+     0.0,
+     0.0,
+     0.006
+    ],
+    "highlight": [
+     0.008,
+     0.004,
+     -0.006
+    ],
+    "sat": 1.02
+   }
+  },
+  "film": {
+   "toe": 0.012,
+   "halation": 0.04,
+   "grain": 0.7
+  }
+ },
+ "text": {
+  "font": "/System/Library/Fonts/SFNS.ttf",
+  "variation": "Semibold",
+  "size": 0.068,
+  "tracking": 0.003
+ },
+ "supers": [
+  {
+   "text": "FOLDS",
+   "start": 260,
+   "end": 270,
+   "y": 0.47,
+   "x": 0.25
+  },
+  {
+   "text": "SMALL.",
+   "start": 270,
+   "end": 280,
+   "y": 0.47,
+   "x": 0.25
+  },
+  {
+   "text": "OPENS",
+   "start": 280,
+   "end": 290,
+   "y": 0.47,
+   "x": 0.25
+  },
+  {
+   "text": "BIG.",
+   "start": 290,
+   "end": 300,
+   "y": 0.47,
+   "x": 0.25
+  },
+  {
+   "text": "OPEN",
+   "start": 420,
+   "end": 430,
+   "y": 0.28,
+   "style": {
+    "color": [
+     29,
+     29,
+     31
+    ],
+    "shadow_alpha": 0
+   }
+  },
+  {
+   "text": "OPEN UP.",
+   "start": 430,
+   "end": 460,
+   "y": 0.28,
+   "style": {
+    "color": [
+     29,
+     29,
+     31
+    ],
+    "shadow_alpha": 0
+   }
+  }
+ ],
+ "music": {
+  "track": "dl/music-C.mp3",
+  "phase": 0.08,
+  "segments": [
+   "6:0:26",
+   "43:2:4",
+   "54:2:9",
+   "73:3:11"
+  ],
+  "out": "build/music/cue.wav"
+ },
+ "mix": {
+  "out": "build/audio",
+  "music": "build/music/cue.wav",
+  "sfx_files": {
+   "rustle": "dl/sfx-rustle.mp3",
+   "glide": "dl/sfx-hinge-glide.mp3",
+   "click": "dl/sfx-magnet-click.mp3",
+   "thump": "dl/sfx-book-thump.mp3",
+   "slide": "dl/sfx-fabric-slide.mp3",
+   "snap": "dl/sfx-paper-snap.mp3",
+   "tap": "dl/sfx-card-tap.mp3",
+   "creak": "dl/sfx-wood-lid.mp3",
+   "riffle": "dl/sfx-page-riffle.mp3",
+   "whoosh": "dl/sfx-whoosh.mp3",
+   "land": "dl/sfx-land.mp3"
+  },
+  "sfx_derived": {
+   "detent": {
+    "from": "click",
+    "pitch": -5
+   },
+   "tick": {
+    "from": "click",
+    "pitch": 5
+   },
+   "riser": {
+    "from": "whoosh",
+    "reverse": true
+   }
+  },
+  "sfx": [
+   [
+    "rustle",
+    0.0,
+    0.6,
+    0.02,
+    1,
+    -14
+   ],
+   [
+    "rustle",
+    0.0,
+    0.6,
+    0.02,
+    22,
+    -16
+   ],
+   [
+    "tap",
+    0.0,
+    0.3,
+    0.01,
+    38,
+    -10
+   ],
+   [
+    "glide",
+    0.0,
+    0.6,
+    0.02,
+    44,
+    -12
+   ],
+   [
+    "click",
+    0.0,
+    0.4,
+    0.01,
+    61,
+    -8
+   ],
+   [
+    "tick",
+    0.0,
+    0.2,
+    0.01,
+    71,
+    -14
+   ],
+   [
+    "thump",
+    0.0,
+    0.5,
+    0.02,
+    100,
+    -16
+   ],
+   [
+    "click",
+    0.0,
+    0.4,
+    0.01,
+    104,
+    -8
+   ],
+   [
+    "slide",
+    0.0,
+    0.8,
+    0.02,
+    132,
+    -14
+   ],
+   [
+    "slide",
+    0.0,
+    0.8,
+    0.02,
+    152,
+    -16
+   ],
+   [
+    "snap",
+    0.0,
+    0.5,
+    0.02,
+    176,
+    -12
+   ],
+   [
+    "glide",
+    0.0,
+    0.6,
+    0.02,
+    192,
+    -12
+   ],
+   [
+    "creak",
+    0.0,
+    0.6,
+    0.02,
+    222,
+    -14
+   ],
+   [
+    "detent",
+    0.0,
+    0.3,
+    0.01,
+    254,
+    -10
+   ],
+   [
+    "tick",
+    0.0,
+    0.2,
+    0.01,
+    308,
+    -18
+   ],
+   [
+    "tick",
+    0.0,
+    0.2,
+    0.01,
+    318,
+    -18
+   ],
+   [
+    "tick",
+    0.0,
+    0.2,
+    0.01,
+    328,
+    -18
+   ],
+   [
+    "tick",
+    0.0,
+    0.2,
+    0.01,
+    338,
+    -18
+   ],
+   [
+    "tick",
+    0.0,
+    0.2,
+    0.01,
+    348,
+    -18
+   ],
+   [
+    "tick",
+    0.0,
+    0.2,
+    0.01,
+    358,
+    -18
+   ],
+   [
+    "tick",
+    0.0,
+    0.2,
+    0.01,
+    368,
+    -18
+   ],
+   [
+    "riser",
+    0.45,
+    0.55,
+    1.0,
+    390,
+    -4
+   ],
+   [
+    "whoosh",
+    0.0,
+    0.7,
+    0.03,
+    384,
+    -4
+   ],
+   [
+    "land",
+    0.0,
+    0.6,
+    0.05,
+    391,
+    -8
+   ],
+   [
+    "glide",
+    0.0,
+    0.6,
+    0.02,
+    400,
+    -12
+   ],
+   [
+    "click",
+    0.0,
+    0.4,
+    0.01,
+    420,
+    -12
+   ]
+  ],
+  "master": {
+   "lufs": -14,
+   "ceiling_db": -1.6,
+   "true_peak_db": -1.5
+  }
+ },
+ "deliver": {
+  "dir": "output/v3",
+  "crf": 14
+ },
+ "shots": [
+  {
+   "id": "01",
+   "name": "opener: greeting card opens fully (thumb lifts the right edge, cover lands flat on the left)",
+   "start": 0,
+   "end": 20,
+   "src": "@v01",
+   "grade": "world",
+   "picks": {
+    "linspace": [
+     18,
+     48
+    ]
+   },
+   "gain": 0.85
+  },
+  {
+   "id": "02",
+   "name": "opener: open passport closed fully by the same hand, cover shows PASSPORT",
+   "start": 20,
+   "end": 40,
+   "src": "@v02",
+   "grade": "world",
+   "picks": {
+    "linspace": [
+     8,
+     38
+    ]
+   },
+   "gain": 1.12
+  },
+  {
+   "id": "03",
+   "name": "opener: closed Duo opened fully flat (180 deg, straight edges) by the same hand, screen wakes",
+   "start": 40,
+   "end": 80,
+   "src": "@v03",
+   "grade": "product",
+   "picks": {
+    "linspace": [
+     8,
+     64
+    ]
+   },
+   "gain": 1.2
+  },
+  {
+   "id": "05",
+   "name": "B shut: palm pushes the novel cover down 55->20 deg, still moving at the cut",
+   "start": 80,
+   "end": 100,
+   "src": "@v05",
+   "grade": "world",
+   "picks": {
+    "linspace": [
+     6,
+     34
+    ]
+   },
+   "gain": 1.12
+  },
+  {
+   "id": "06",
+   "name": "B shut: Duo closes 25->0, hand lifts away",
+   "start": 100,
+   "end": 130,
+   "src": "@v06",
+   "grade": "product",
+   "picks": {
+    "from": 5,
+    "speed": 1.0
+   },
+   "gain": 0.82
+  },
+  {
+   "id": "07",
+   "name": "pocket: map pushed down, cut when half inside",
+   "start": 130,
+   "end": 150,
+   "src": "@v07",
+   "grade": "world",
+   "picks": {
+    "linspace": [
+     4,
+     34
+    ]
+   },
+   "gain": 1.15
+  },
+  {
+   "id": "08",
+   "name": "pocket: closed Duo slides fully into pocket",
+   "start": 150,
+   "end": 170,
+   "src": "@v08",
+   "grade": "product",
+   "picks": {
+    "from": 0,
+    "speed": 1.2
+   },
+   "gain": 1.2
+  },
+  {
+   "id": "09",
+   "name": "A unfold: topo map last fold 45->90 deg",
+   "start": 170,
+   "end": 190,
+   "src": "@v09",
+   "grade": "world",
+   "picks": {
+    "linspace": [
+     30,
+     59
+    ]
+   },
+   "gain": 0.92
+  },
+  {
+   "id": "10",
+   "name": "A unfold: Duo 90->180 in two hands, aerial photo wakes",
+   "start": 190,
+   "end": 220,
+   "src": "@v10",
+   "grade": "product",
+   "picks": {
+    "linspace": [
+     15,
+     50
+    ]
+   },
+   "gain": 0.8
+  },
+  {
+   "id": "13",
+   "name": "B seated: hand lifts the pochade lid by its corner 30->65 deg",
+   "start": 220,
+   "end": 240,
+   "src": "@v13",
+   "grade": "world",
+   "picks": {
+    "linspace": [
+     0,
+     24
+    ]
+   },
+   "gain": 1.12
+  },
+  {
+   "id": "14",
+   "name": "B seated: same corner grip tilts the Duo upper half back 70->95 deg",
+   "start": 240,
+   "end": 260,
+   "src": "@v14",
+   "grade": "product",
+   "picks": {
+    "linspace": [
+     0,
+     25
+    ]
+   }
+  },
+  {
+   "id": "17",
+   "name": "breath: Duo L on the sill, screen dark, last glint of light; scaled to the lineup framing",
+   "start": 260,
+   "end": 300,
+   "src": "@v17",
+   "grade": "product",
+   "step_ok": true,
+   "picks": {
+    "linspace": [
+     0,
+     59
+    ]
+   },
+   "geo": [
+    [
+     1035,
+     490
+    ],
+    [
+     1292,
+     485
+    ],
+    1.235
+   ]
+  },
+  {
+   "id": "18",
+   "name": "C lineup: airport lounge (passport), hand touches screen, cut on contact",
+   "start": 300,
+   "end": 310,
+   "src": "@v18",
+   "grade": "world",
+   "step_ok": true,
+   "picks": {
+    "linspace": [
+     28,
+     43
+    ]
+   }
+  },
+  {
+   "id": "19",
+   "name": "C lineup: home kitchen (card), hand touches screen, cut on contact",
+   "start": 310,
+   "end": 320,
+   "src": "@v19",
+   "grade": "world",
+   "step_ok": true,
+   "picks": {
+    "linspace": [
+     28,
+     43
+    ]
+   },
+   "geo": [
+    [
+     1548,
+     416
+    ],
+    [
+     1560,
+     410
+    ],
+    1.0
+   ]
+  },
+  {
+   "id": "20",
+   "name": "C lineup: window reading nook (photo book), hand touches screen, cut on contact",
+   "start": 320,
+   "end": 330,
+   "src": "@v20",
+   "grade": "world",
+   "step_ok": true,
+   "picks": {
+    "linspace": [
+     28,
+     43
+    ]
+   }
+  },
+  {
+   "id": "21",
+   "name": "C lineup: library desk (novel), hand touches screen, cut on contact",
+   "start": 330,
+   "end": 340,
+   "src": "@v21",
+   "grade": "world",
+   "step_ok": true,
+   "picks": {
+    "linspace": [
+     28,
+     43
+    ]
+   }
+  },
+  {
+   "id": "22",
+   "name": "C lineup: cafe marble (city map), hand touches screen, cut on contact",
+   "start": 340,
+   "end": 350,
+   "src": "@v22",
+   "grade": "world",
+   "step_ok": true,
+   "picks": {
+    "linspace": [
+     28,
+     43
+    ]
+   },
+   "geo": [
+    [
+     948,
+     468
+    ],
+    [
+     1240,
+     485
+    ],
+    1.3
+   ]
+  },
+  {
+   "id": "23",
+   "name": "C lineup: restaurant white cloth (place card), hand touches screen, cut on contact",
+   "start": 350,
+   "end": 360,
+   "src": "@v23",
+   "grade": "world",
+   "step_ok": true,
+   "picks": {
+    "linspace": [
+     28,
+     43
+    ]
+   },
+   "geo": [
+    [
+     1438,
+     370
+    ],
+    [
+     1560,
+     410
+    ],
+    1.06
+   ]
+  },
+  {
+   "id": "24",
+   "name": "C lineup: mountain rock (topo map), hand touches screen, cut on contact",
+   "start": 360,
+   "end": 370,
+   "src": "@v24",
+   "grade": "world",
+   "step_ok": true,
+   "picks": {
+    "linspace": [
+     28,
+     43
+    ]
+   }
+  },
+  {
+   "id": "25",
+   "name": "C lineup: painter's studio (pochade), hand lifts the Duo, camera whips up",
+   "start": 370,
+   "end": 390,
+   "src": "@v25",
+   "grade": "world",
+   "step_ok": true,
+   "whip_out": [
+    [
+     1.12,
+     60,
+     80
+    ],
+    [
+     1.25,
+     130,
+     220
+    ],
+    [
+     1.35,
+     185,
+     380
+    ]
+   ],
+   "picks": {
+    "linspace": [
+     24,
+     52
+    ]
+   }
+  },
+  {
+   "id": "26",
+   "name": "A hero: Duo lands at 90 deg, opens flat, screen wakes, 2% push",
+   "start": 390,
+   "end": 460,
+   "src": "@v26",
+   "grade": "product",
+   "whip_in": [
+    [
+     1.35,
+     -185,
+     380
+    ],
+    [
+     1.22,
+     -110,
+     200
+    ],
+    [
+     1.11,
+     -50,
+     90
+    ],
+    [
+     1.04,
+     -15,
+     30
+    ],
+    [
+     1.012,
+     -3,
+     8
+    ],
+    [
+     1.012,
+     6,
+     0
+    ],
+    [
+     1.006,
+     2,
+     0
+    ]
+   ],
+   "picks": {
+    "list": [
+     16,
+     18,
+     19,
+     21,
+     23,
+     24,
+     26,
+     28,
+     29,
+     31,
+     33,
+     34,
+     36,
+     38,
+     39,
+     41,
+     43,
+     44,
+     46,
+     48,
+     49,
+     51,
+     53,
+     54,
+     56,
+     58,
+     59,
+     61,
+     63,
+     64,
+     66,
+     67,
+     68,
+     68,
+     69,
+     70,
+     71,
+     71,
+     72,
+     73,
+     74,
+     74,
+     75,
+     76,
+     77,
+     78,
+     78,
+     79,
+     80,
+     81,
+     81,
+     82,
+     83,
+     84,
+     84,
+     85,
+     86,
+     87,
+     88,
+     88,
+     89,
+     90,
+     91,
+     91,
+     92,
+     93,
+     94,
+     94,
+     95,
+     96
+    ]
+   },
+   "step_ok": true
+  },
+  {
+   "id": "27",
+   "name": "end card: Apple logo + iPhone Duo, hard cut on the final hit",
+   "start": 460,
+   "end": 500,
+   "type": "card",
+   "logo": "assets/apple-logo-black.png",
+   "text": "iPhone Duo",
+   "font": {
+    "font": "/System/Library/Fonts/SFNS.ttf",
+    "variation": "Semibold"
+   },
+   "logo_h": 0.13,
+   "logo_y": 0.42,
+   "text_y": 0.6,
+   "text_size": 0.07,
+   "push": 0.02,
+   "grain": 0.5,
+   "bg": [
+    251,
+    251,
+    253
+   ],
+   "text_color": [
+    29,
+    29,
+    31
+   ]
+  }
+ ]
+}

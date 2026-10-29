@@ -1,0 +1,180 @@
+{
+ "name": "product-v1",
+ "timeline": {
+  "fps": 25,
+  "bpm": 150,
+  "frames": 500,
+  "size": [1920, 1080]
+ },
+ "sources": {},
+ "look": {
+  "roll": {
+   "dps": 20,
+   "max_frames": 20
+  },
+  "grades": {
+   "product": {
+    "shadow": [-0.014, 0.004, 0.02],
+    "highlight": [0.024, 0.008, -0.02],
+    "sat": 1.0
+   },
+   "world": {
+    "shadow": [-0.004, 0.002, 0.008],
+    "highlight": [0.03, 0.012, -0.026],
+    "sat": 1.05
+   }
+  },
+  "film": {
+   "toe": 0.022,
+   "halation": 0.07,
+   "grain": 1.0
+  }
+ },
+ "text": {
+  "font": "/System/Library/Fonts/Supplemental/Bodoni 72.ttc",
+  "style": "Bold",
+  "size": 0.072,
+  "tracking": 0.006
+ },
+ "supers": [
+  {
+   "text": "THEME",
+   "start": 270,
+   "end": 300,
+   "y": 0.5
+  },
+  {
+   "text": "PAYOFF",
+   "start": 405,
+   "end": 420,
+   "y": 0.094
+  },
+  {
+   "text": "PAYOFF LINE.",
+   "start": 420,
+   "end": 460,
+   "y": 0.094
+  }
+ ],
+ "music": {
+  "track": "dl/music-pick.mp3",
+  "phase": 0.0,
+  "segments": [
+   "4:0:8",
+   "8:0:18",
+   "24:0:8",
+   "40:0:8",
+   "60:0:8"
+  ],
+  "out": "build/music/cue.wav"
+ },
+ "mix": {
+  "out": "build/audio",
+  "music": "build/music/cue.wav",
+  "vo": {
+   "file": "dl/vo.mp3",
+   "phrases": [
+    {
+     "text": "Payoff line",
+     "in": 0.3,
+     "out": 1.6,
+     "frame": 405,
+     "gain": 3.0,
+     "limit": true
+    }
+   ]
+  },
+  "sfx_files": {
+   "whoosh": "dl/sfx-whoosh.mp3",
+   "tick": "dl/sfx-tick.mp3",
+   "land": "dl/sfx-land.mp3"
+  },
+  "sfx_derived": {
+   "riser": {
+    "from": "whoosh",
+    "reverse": true
+   }
+  },
+  "sfx": [
+   [
+    "tick",
+    0.0,
+    0.3,
+    0.02,
+    1,
+    -12
+   ],
+   [
+    "land",
+    0.0,
+    0.6,
+    0.05,
+    60,
+    -8
+   ],
+   [
+    "riser",
+    0.45,
+    0.55,
+    1.0,
+    390,
+    -4
+   ],
+   [
+    "whoosh",
+    0.0,
+    0.7,
+    0.03,
+    390,
+    -4
+   ]
+  ],
+  "duck": [
+   {
+    "type": "voiceband",
+    "from": 400,
+    "to": 450,
+    "db": -10,
+    "other_db": -1.5
+   }
+  ],
+  "master": {
+   "lufs": -14,
+   "ceiling_db": -1.6,
+   "true_peak_db": -1.5
+  }
+ },
+ "deliver": {
+  "dir": "output/v1",
+  "crf": 14
+ },
+ "shots": [
+  {"id": "01", "name": "A opener circle 1", "start": 0, "end": 20, "src": "stills/01.png", "grade": "world", "roll": true},
+  {"id": "02", "name": "A opener circle 2", "start": 20, "end": 40, "src": "stills/02.png", "grade": "world", "roll": true},
+  {"id": "03", "name": "A opener circle 3", "start": 40, "end": 60, "src": "stills/03.png", "grade": "product", "roll": true},
+  {"id": "04", "name": "A product lands on the downbeat", "start": 60, "end": 80, "src": "stills/04.png", "grade": "product", "roll": true},
+  {"id": "05", "name": "relay world 5", "start": 80, "end": 90, "src": "stills/05.png", "grade": "world"},
+  {"id": "06", "name": "relay product 6", "start": 90, "end": 110, "src": "stills/06.png", "grade": "product"},
+  {"id": "07", "name": "relay world 7", "start": 110, "end": 120, "src": "stills/07.png", "grade": "world"},
+  {"id": "08", "name": "relay product 8", "start": 120, "end": 140, "src": "stills/08.png", "grade": "product"},
+  {"id": "09", "name": "relay world 9", "start": 140, "end": 150, "src": "stills/09.png", "grade": "world"},
+  {"id": "10", "name": "relay product 10", "start": 150, "end": 170, "src": "stills/10.png", "grade": "product"},
+  {"id": "11", "name": "relay world 11", "start": 170, "end": 180, "src": "stills/11.png", "grade": "world"},
+  {"id": "12", "name": "relay product 12", "start": 180, "end": 200, "src": "stills/12.png", "grade": "product"},
+  {"id": "13", "name": "relay world 13", "start": 200, "end": 210, "src": "stills/13.png", "grade": "world"},
+  {"id": "14", "name": "relay product 14", "start": 210, "end": 230, "src": "stills/14.png", "grade": "product"},
+  {"id": "15", "name": "relay world 15", "start": 230, "end": 240, "src": "stills/15.png", "grade": "world"},
+  {"id": "16", "name": "relay product 16", "start": 240, "end": 260, "src": "stills/16.png", "grade": "product"},
+  {"id": "17", "name": "breath macro, pulls out to the lineup", "start": 260, "end": 300, "src": "stills/17.png", "grade": "product", "pull": {"c_src": [960, 540], "c_dst": [960, 600], "k_end": 0.5, "i0": 28}},
+  {"id": "18", "name": "lineup world 18", "start": 300, "end": 310, "src": "stills/18.png", "grade": "world"},
+  {"id": "19", "name": "lineup world 19", "start": 310, "end": 320, "src": "stills/19.png", "grade": "world"},
+  {"id": "20", "name": "lineup world 20", "start": 320, "end": 330, "src": "stills/20.png", "grade": "world"},
+  {"id": "21", "name": "lineup world 21", "start": 330, "end": 340, "src": "stills/21.png", "grade": "world"},
+  {"id": "22", "name": "lineup world 22", "start": 340, "end": 350, "src": "stills/22.png", "grade": "world"},
+  {"id": "23", "name": "lineup world 23", "start": 350, "end": 360, "src": "stills/23.png", "grade": "world"},
+  {"id": "24", "name": "lineup world 24", "start": 360, "end": 370, "src": "stills/24.png", "grade": "world"},
+  {"id": "25", "name": "lineup last world, hand lifts it, camera whips up", "start": 370, "end": 390, "src": "stills/25.png", "grade": "world", "whip_out": [[1.12, 60, 80], [1.25, 130, 220], [1.35, 185, 380]]},
+  {"id": "26", "name": "hero", "start": 390, "end": 460, "src": "stills/26.png", "grade": "product", "whip_in": [[1.35, -185, 380], [1.22, -110, 200], [1.11, -50, 90], [1.04, -15, 30], [1.012, -3, 8], [1.012, 6, 0], [1.006, 2, 0]]},
+  {"id": "27", "name": "end card", "start": 460, "end": 500, "type": "card", "logo": "assets/logo.png", "text": "Product Name", "logo_h": 0.26, "logo_y": 0.44, "text_y": 0.69, "text_size": 0.075, "push": 0.02, "grain": 0.5}
+ ]
+}
